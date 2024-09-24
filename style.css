@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+
+}
+h2{
+    text-align: center;
+}
+.coluna{
+    width: 100%;
+    padding: 8px;
+}
+.price-box{
+    background-color: white;
+    color: #555;
+    list-style: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;    
+
+}
+li{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 20px solid #eee;
+}
+.corpo{
+    display: flex;
+    
+}
+@media(max-width: 720px)
+{
+    .corpo{
+        flex-direction: column;
+    }
+}
